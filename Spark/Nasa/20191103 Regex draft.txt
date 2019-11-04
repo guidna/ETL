@@ -1,0 +1,17 @@
+piweba1y.prodigy.com - - [01/Aug/1995:00:07:06 -0400] "GET /history/apollo/images/apollo-logo1.gif HTTP/1.0" 200 1173
+uplherc.upl.com - - [01/Aug/1995:00:07:07 -0400] "GET /shuttle/missions/sts-68/images/ksc.gif HTTP/1.0" 200 152676
+van15422.direct.ca - - [01/Aug/1995:00:07:08 -0400] "GET /images/construct.gif HTTP/1.0" 200 1414
+van15422.direct.ca - - [01/Aug/1995:00:07:11 -0400] "GET /software/winvn/bluemarb.gif HTTP/1.0" 200 4441
+ad11-061.compuserve.com - - [01/Aug/1995:00:07:13 -0400] "GET /shuttle/countdown/ HTTP/1.0" 200 4324
+ad11-061.compuserve.com - - [01/Aug/1995:00:07:18 -0400] "GET /images/KSC-logosmall.gif HTTP/1.0" 200 1204
+van15422.direct.ca - - [01/Aug/1995:00:07:23 -0400] "GET /software/winvn/wvsmall.gif HTTP/1.0" 200 13372
+ad11-061.compuserve.com - - [01/Aug/1995:00:07:24 -0400] "GET /shuttle/countdown/count70.gif HTTP/1.0" 200 46573
+uplherc.upl.com - - [01/Aug/1995:00:07:31 -0400] "GET /shuttle/missions/sts-66/sts-66-patch-small.gif HTTP/1.0" 200 20271
+pm9.j51.com - - [01/Aug/1995:00:07:33 -0400] "GET /facilities/mlp.html HTTP/1.0" 200 2653
+js002.cc.utsunomiya-u.ac.jp - - [01/Aug/1995:00:07:33 -0400] "GET /shuttle/resources/orbiters/discovery.gif HTTP/1.0" 404 -
+
+(.*) - - \[(.*)\] "(.*)" (\d*) (.*)
+$1,$2,$3,$4,$5
+
+(.*) - - \[(.*)\:(\d\d\:\d\d\:\d\d.*)\] "(.*)" (\d*) (.*)
+$1,$2,$3,$4,$5,$6
